@@ -1,0 +1,269 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../assets/whats-on-xizt-movies.jpg');
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-contains {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-contains h1{
+    font-size: 42px;
+    margin: 10px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header-contains h1:hover {
+    color: rgb(226, 4, 4);
+    transition: all ease-in-out 0.15s;
+}
+
+.header-contains h3{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+    opacity: 0.9;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header-contains h3:nth-child(3){
+    font-size: 21px;
+    margin: 10px 0;
+    letter-spacing: 0;
+    opacity: 0.8;
+}
+
+.header-contains h3:hover {
+    opacity: 0.45;
+}
+
+.go-to-login-btn {
+    background-color: rgb(225, 7, 7);
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    width: 120px;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.go-to-login-btn:hover {
+    background-color: rgb(229, 25, 25);
+    transition: all 0.13s;
+}
+
+.subcribers-number {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.subcribers-number:hover {
+    color:rgb(225, 7, 7)
+}
+
+h1 {
+    color: #fff
+}
+
+/* Tv */
+
+.enjoy-on-tv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+    border-top: 8px solid rgba(93, 93, 93, 0.77);
+}
+
+.enjoy-on-tv div {
+    margin: 0 50px;
+}
+
+.left-tv p {
+    color: #fff;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.watch-shows-offline {
+    border-top: 8px solid rgba(93, 93, 93, 0.637);
+}
+
+.watch-shows-offline-contain {
+    display: flex;
+    justify-content: center;
+    padding: 140px 0;
+}
+
+.watch-shows-offline img {
+    margin-right: 40px;
+}
+
+.watch-show-offline-text {
+    margin-left: 80px;
+    color: #fff;
+    flex: 0.5
+}
+
+.watch-show-offline-text h1 {
+    font-size: 38px;
+}
+
+.watch-show-offline-text h3 {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* Watch Everywhere */
+
+.watch-everywhere {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 150px 0;
+    border-top: 8px solid rgba(93, 93, 93, 0.77);
+    color: #fff;
+}
+
+.watch-everywhere-text {
+    flex: 0.5;
+}
+
+.watch-everywhere-text h2{
+    font-size: 32px;
+}
+
+.watch-everywhere-text p {
+    font-size: 20px;
+    word-spacing: -2px;
+}
+
+.watch-everywhere-img img {
+    width: 480px;
+}
+
+/* Questions */
+
+.asked-questions {
+    border-top: 8px solid rgba(93, 93, 93, 0.637);
+    color: #fff
+}
+
+.asked-questions-title {
+    text-align: center;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.questions {
+    width: 770px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.question-and-answer {
+    background-color: rgb(43, 43, 43);
+}
+
+.question {
+    display: flex;
+    padding: 10px 22px;
+    margin-top: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer {
+    padding: 2px 22px;
+    border-top: 1px solid gray;
+    text-align: start;
+}
+
+.question:hover {
+    background-color: rgb(79, 79, 79);
+    transition: all 0.2s;
+}
+
+.questions h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .enjoy-on-tv div {
+        margin: 0 10px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+    .enjoy-on-tv, .watch-shows-offline-contain, .watch-everywhere {
+        flex-direction: column;
+    }
+    
+    .right-tv img, .watch-shows-offline-contain img {
+        width: 100%;
+    }
+    
+    .left-tv p {
+        width: 95%;
+    }
+
+    .watch-show-offline-text {
+        margin: 0 0 0 10px;
+    }
+
+    .watch-everywhere-text {
+        width: 90%;
+    }
+
+    .watch-everywhere-img img{
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    .questions {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .question {
+        margin: 0;
+    }
+
+    .question-and-answer {
+        width: 90%;
+        margin: 5px 0;
+    }
+}

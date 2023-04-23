@@ -1,0 +1,107 @@
+.netflix-movie {
+    height: 100vh;
+    background-size: cover !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netflix-movie-contain {
+    display: flex;
+    color: #fff;
+}
+
+.netflix-movie-contain img {
+    margin-right: 50px;
+    max-width: 400px;
+    min-height: 270px;
+    max-height: 450px;
+}
+
+.netflix-movie-info {
+    margin-left: 50px;
+    position: relative;
+    width: 450px;
+}
+
+.netflix-movie-info h2 {
+    margin: 10px 0 25px 0;
+    
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.netflix-movie-title {
+    margin: 0;
+}
+
+.netflix-movie-info h2{
+    font-size: 35px;
+}
+
+.netflix-movie-info p {
+    opacity: 0.85;
+    
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.netflix-movie-watch-tutorial {
+    border: 1px solid black;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px 18px;
+    background-color: #0f0f0fd8;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+}
+
+.netflix-movie-watch-tutorial:hover {
+    background-color: #020202;
+    transition: all 0.2s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .netflix-movie-contain {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .netflix-movie-contain {
+        flex-direction: column;
+    }
+    
+    .netflix-movie-contain img {
+        
+        margin-right: 0;
+        min-width: 100px;
+        max-width: 100%;
+        min-height: 100px;
+        max-height: 250px;
+    }
+
+    .netflix-movie-info {
+        margin: 10px 0;
+        padding: 0 0 30px 0;
+        width: 100%;
+    }
+
+    .netflix-movie-info h2 {
+        margin: 10px 0;
+    }
+    
+    .netflix-movie-watch-tutorial {
+        bottom: 0;
+    }
+}

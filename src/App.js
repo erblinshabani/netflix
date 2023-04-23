@@ -27,8 +27,8 @@ function App() {
             <Navbar />
             <Routes>
               <Route path='/netflix' element={user ? <Movies /> :<Home />}/>
-              <Route path='/login' element={user ? <Profile /> : <LogIn />}/>
-              <Route path='/movie/:movieId' element={<NetflixMovie />}/>
+              <Route path='/netflix/login' element={user ? <Profile /> : <LogIn />}/>
+              <Route path='/netflix/movie/:movieId' element={<NetflixMovie />}/>
             </Routes>
           </Router>
         </QueryClientProvider>

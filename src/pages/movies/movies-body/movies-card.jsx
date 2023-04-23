@@ -6,7 +6,7 @@ export const MovieCard = ({movies}) => {
         <>
             {movies && movies.map((movie, key) => {
                 return (
-                    <div key={key} className="movie-card" onClick={() => navigate(`/movie/${movie.imdbID}`)} style={{ background: `url('${movie?.Poster}')` }}>
+                    <div key={key} className="movie-card" onClick={() => navigate(`/netflix/movie/${movie.imdbID}`)} style={{ background: `url('${movie?.Poster}')` }}>
                         <div className="movie-card-text">
                             <h3 className="movie-card-title">{movie?.Title}</h3>
                             <div className="movie-card-info">

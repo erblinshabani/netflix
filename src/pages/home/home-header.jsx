@@ -21,7 +21,7 @@ export const HomeHeader = () => {
                 <h1>Unlimited movies, TV shows, and more</h1>
                 <h3>Plans now start at EUR4.99/month.</h3>
                 <h3>Ready to watch? Enter your email to create or restart your membership..</h3>
-                <Link className="go-to-login-btn" to='/login'>Start Now</Link>
+                <Link className="go-to-login-btn" to='/netflix/login'>Start Now</Link>
             </div>
             <h4 className="subcribers-number">{<CountUp delay={1.5} duration={7} end={230}/>}M Subscribers</h4>
         </div>

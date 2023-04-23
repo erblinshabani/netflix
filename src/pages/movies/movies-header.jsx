@@ -17,7 +17,7 @@ export const MovieHeader = () => {
         <div className="movie-header-info">
             <h1 className="movie-header-title">{movies[moviesLength]?.Title}</h1>
             <div className="movie-header-info-btns">
-                <button onClick={() => navigate(`/movie/${movies[moviesLength]?.imdbID}`)} className="movie-header-play-btn">Play</button>
+                <button onClick={() => navigate(`/netflix/movie/${movies[moviesLength]?.imdbID}`)} className="movie-header-play-btn">Play</button>
                 <button  className="movie-header-my-list-btn">My List</button>
             </div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis magnam debitis nulla incidunt tempora quam dolorem id, sunt, voluptatum molestias, omnis aliquid porro eligendi rem vitae quibusdam veniam! Asperiores, sit!</p>

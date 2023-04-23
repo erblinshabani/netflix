@@ -7,8 +7,9 @@ export const LogIn = () => {
     const navigate = useNavigate()
 
     const signIn = async () => {
-        await signInWithPopup(auth, provider)
+        const result = await signInWithPopup(auth, provider)
         navigate('/netflix')
+        return result
     }
 
     return (

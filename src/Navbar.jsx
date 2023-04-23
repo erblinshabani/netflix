@@ -26,7 +26,7 @@ export const Navbar = () => {
         <nav className={`${se ? 'nav-active' : 'nav'}`}>
             <h1 onClick={() => navigate('/netflix')} className="logo">XIZT</h1>
 
-            <div className="user" onClick={() => navigate('/login')}>
+            <div className="user" onClick={() => navigate('/netflix/login')}>
                 <img className="userImage" src={user?.photoURL ? user.photoURL : UserAvatar} alt="userImg" />
                 <h4 className="username">{user?.displayName}</h4>
             </div>

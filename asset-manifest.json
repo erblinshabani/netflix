@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/netflix/static/css/main.e3b11ab7.css",
+    "main.js": "/netflix/static/js/main.a163c7cc.js",
+    "static/js/787.0904c1f0.chunk.js": "/netflix/static/js/787.0904c1f0.chunk.js",
+    "static/media/we-re-the-millers.jpg": "/netflix/static/media/we-re-the-millers.e422bd54b1b1c09e494e.jpg",
+    "static/media/whats-on-xizt-movies.jpg": "/netflix/static/media/whats-on-xizt-movies.8162ede483aa6d5f4d75.jpg",
+    "static/media/jumanji.jpg": "/netflix/static/media/jumanji.9c1a9be9439447d6ecb7.jpg",
+    "static/media/Don't-look-up.jpg": "/netflix/static/media/Don't-look-up.ff174777c88db62ee1ee.jpg",
+    "static/media/WorldWarZ.jpeg": "/netflix/static/media/WorldWarZ.925adfc34a4c7ab5fa72.jpeg",
+    "static/media/family-movies-on-netflix-benji.jpeg": "/netflix/static/media/family-movies-on-netflix-benji.a41b0ab311191d8c166f.jpeg",
+    "static/media/device-pile.png": "/netflix/static/media/device-pile.8e6539e8bfc6937a0648.png",
+    "static/media/bad-trip.jpg": "/netflix/static/media/bad-trip.2aaba10f70ed76b65999.jpg",
+    "static/media/la-casa-de-papel.jpg": "/netflix/static/media/la-casa-de-papel.44d8e7d4de69b3cdbb60.jpg",
+    "static/media/User-avatar.png": "/netflix/static/media/User-avatar.934339d98b117001e1d3.png",
+    "static/media/Under-The-Shadow.jpeg": "/netflix/static/media/Under-The-Shadow.bdae965928aa8baadc65.jpeg",
+    "static/media/awake.jpg": "/netflix/static/media/awake.fe9dca3915a6561f130f.jpg",
+    "static/media/tv-img.png": "/netflix/static/media/tv-img.0049bc70babc1f94cf88.png",
+    "index.html": "/netflix/index.html",
+    "main.e3b11ab7.css.map": "/netflix/static/css/main.e3b11ab7.css.map",
+    "main.a163c7cc.js.map": "/netflix/static/js/main.a163c7cc.js.map",
+    "787.0904c1f0.chunk.js.map": "/netflix/static/js/787.0904c1f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3b11ab7.css",
+    "static/js/main.a163c7cc.js"
+  ]
+}
